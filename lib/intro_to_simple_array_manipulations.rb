@@ -10,8 +10,8 @@ def using_pop(array)
   array.pop()
 end
 
-def pop_with_args(array, int)
-  array.pop(int)  
+def pop_with_args(array)
+  array.pop(2)  
 end
 
 def using_shift(array)
@@ -32,7 +32,7 @@ continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oce
 using_pop(continents)
 
 dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
-pop_with_args(dog_breeds, 2)
+pop_with_args(dog_breeds)
 
 my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
 using_shift(my_favorite_cities)
