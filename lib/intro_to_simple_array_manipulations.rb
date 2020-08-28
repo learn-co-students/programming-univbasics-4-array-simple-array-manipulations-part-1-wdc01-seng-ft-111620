@@ -18,8 +18,8 @@ def using_shift(array)
   array.shift()
 end 
 
-def shift_with_args(array, int)
-  array.shift(int)
+def shift_with_args(array)
+  array.shift(2)
 end 
 
 colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"]
@@ -38,4 +38,4 @@ my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaboron
 using_shift(my_favorite_cities)
 
 ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-shift_with_args(ice_cream_brands, 2)
+shift_with_args(ice_cream_brands)
